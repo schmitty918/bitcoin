@@ -33,11 +33,6 @@ import pyttsx3
 from datetime import datetime
 import logging 
 
-api_key = os.environ.get('5UNjH9rXQNo1FpCG6yN85BzCEQ6HWcCLA13rP3CFItKjHjG9FLCDl0LryDkEAJEC')
-api_secret = os.environ.get('l1hgUH1Lag2SPyZkEXMf7EdBS5Ck8SUoqmHAxnnciDez6yREzwlCuxAyvl8mvbKm')
-
-client = Client('5UNjH9rXQNo1FpCG6yN85BzCEQ6HWcCLA13rP3CFItKjHjG9FLCDl0LryDkEAJEC', 'l1hgUH1Lag2SPyZkEXMf7EdBS5Ck8SUoqmHAxnnciDez6yREzwlCuxAyvl8mvbKm', tld="us")
-
 
  
 # Functions setup
